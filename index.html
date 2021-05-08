@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .container {
+            height: 100VH;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        .container .box {
+            width: 300px;
+            height: 500px;
+            background: white;
+            box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+            position: relative;
+            -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+
+        }
+
+        .container .box:hover {
+            animation: animation1 2s 1 linear forwards alternate
+        }
+
+        p {
+            position: absolute;
+            top: 40%;
+            padding: 20px;
+        }
+
+        img {
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 15%;
+            transform: translateX(-50%);
+        }
+
+        @keyframes animation1 {
+            from {
+                transform: rotate(0) scale(1.3);
+                background: lightcoral;
+
+            }
+
+            50% {
+                transform: rotate(-30deg) scale(1.5);
+                background: mediumvioletred;
+
+            }
+
+            to {
+                transform: rotate(360deg) scale(1.3);
+                background: rgb(89, 161, 209);
+
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <p>考慮你知道一般漸漸不論加強回答分公司報告各位引起共同主機，全體色彩就有家庭汽車讓我下載網上教材，一定會女人你沒有為您驚訝眾人，手續武器形式。</p>
+            <img src="https://picsum.photos/100/100/?random=1">
+        </div>
+        <div class="box">
+            <p>上次出處數量隱藏版零售作出，小孩放棄真是是他原理增強頓時太多玩具神話天然能力，電子阿摩斯竟然，生氣春天十分無比各個，保存明天求助發展患者直。</p>
+            <img src="https://picsum.photos/100/100/?random=2">
+        </div>
+        <div class="box">
+            <p>不滿不能複製處理平方米你能，一口氣組圖再也苗栗用來，項目我對，發貼承擔時期黃金進入足夠，討論區部落格好友自然桌面，陷入員工南方體會，國內魔。</p>
+            <img src="https://picsum.photos/100/100/?random=3">
+        </div>
+        <div class="box">
+            <p>規格重複金融先進由此女朋友執行環境舉報你能警方同事倒是，給我附近讀書開口對手保留辦公商家，軍隊移動誘惑校長民主這個外觀關於想要研究，留言板。</p>
+            <img src="https://picsum.photos/100/100/?random=4">
+        </div>
+    </div>
+
+</body>
+
+</html>
